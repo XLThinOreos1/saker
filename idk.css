@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr 1fr;
 }
 
 main {
@@ -26,7 +26,35 @@ h2 {
     text-align: center;
 }
 
-.images{
-    text-align: right;
-    display: grid;
+.images {
+    text-align: center;
+}
+
+.Osu {
+    text-align: center;
+}
+
+.favoritspelsida {
+    background-color: pink;
+}
+
+.favoritanimesida {
+    background-color: rgb(168, 11, 11);
+}
+
+.favoritmatsida {
+    background-color: rgb(255, 196, 0);
+}
+
+.images2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.731);
+}
+
+.index {
+    background-color: lightskyblue;
 }
